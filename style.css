@@ -113,23 +113,32 @@
 }
 
 /* Shared items end here */
+
 .card {
     display: flex;
-    background-color: #fff;
-    border: 1px solid #ddd;
+    width: 100%;
+    background-image: linear-gradient(to right,white,#FAFAFB);
     border-radius: 16px;
     margin: 20px 0;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     height: auto; 
 }
 
+.card-rev {
+    display: flex;
+    background-image: linear-gradient(to left,white,#FAFAFB);
+    border-radius: 16px;
+    margin: 20px 0;
+    padding: 20px;
+    height: auto; 
+}
 .card-content{
     text-align: left;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding: 10px;
+    margin: 0 auto;
 }
 
 .btn-2{
@@ -172,7 +181,7 @@ iframe {
     height: 580px;
     border-radius: 8px;
 }
-
+/* current target starts here */
 .current-target{
     width: 80%;
     height: 400px;
@@ -228,7 +237,35 @@ iframe {
     padding: 20px;
 }
 
-.btn-3{
-    background-color: #FFFDF2;
-    border: none;
+.card-content a{
+    font-weight: bold;
+    font-size: 16px;
+    color: #0D1321;
+    margin-top: 15px;
+}
+
+/* my next target section starts here */
+.next-target-section{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.next-target-text{
+    text-align: center;
+}
+.sub-section{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #0D1321;
+    border-radius: 16px;
+    padding: 5px;
+
+}
+.sub-section-content{
+    padding-left: 20px;
+}
+.sub-section img{
+    width: 9%;
 }
