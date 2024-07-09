@@ -76,11 +76,10 @@
     border: 1px solid #0D1321;
     border-radius: 8px;
 }
-
+/* development cards section starts here */
 .first-section-container{
     width: 100%;
-    height: 1393px;
-    border: 2px solid darkblue;
+    height: 1230px;
     margin-top: 100px;
     display: flex;
     flex-direction: column;
@@ -103,7 +102,7 @@
     margin-top: 50px;
 }
 /* shared font style */
-.text-container h1{
+.text-container h1, .text-container h1 , .container h1{
     font-weight: 900;
     font-size: 32px;
 }
@@ -143,4 +142,93 @@
     font-size: 20px;
     height: auto;
     margin-top: 15px;
+}
+/* my inspiration section */
+.my-inspiration{
+    text-align: center;
+
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    height: 775px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0D1321;
+    border-radius: 16px;
+    padding: 2%;
+    margin-top: 20px;
+}
+
+iframe {
+    width: 100%;
+    max-width: 1400px;
+    height: 580px;
+    border-radius: 8px;
+}
+
+.current-target{
+    width: 80%;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+.current-target-text{
+    height: 30%;
+    text-align: center;
+}
+
+.cards-container{
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+}
+.card-1{
+    background-color: #FFF6F3;
+    width: 33%;
+    height: 100%;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 20px;
+}
+
+.card-2{
+    background-color: #F2F6FE;
+    width: 33%;
+    height: 100%;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 20px;
+
+}
+
+.card-3{
+    background-color: #FFFDF2;
+    width: 33%;
+    height: 100%;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 20px;
+}
+
+.btn-3{
+    background-color: #FFFDF2;
+    border: none;
 }
