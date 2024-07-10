@@ -36,6 +36,7 @@
     background-color: white;
     border: 1px solid #0D1321;
     border-radius: 8px;
+    cursor: pointer;
 }
 .banner-container{
     background-image: url('./assets/Hero-bg.png');
