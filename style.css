@@ -269,3 +269,55 @@ iframe {
 .sub-section img{
     width: 9%;
 }
+
+/* search section starts here*/
+.search-section {
+    width: 80%;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 60px;
+    border-radius: 16px;
+    background: linear-gradient(black, white), url('./assets/handshake.jpg') no-repeat center center/cover;
+    background-blend-mode: multiply;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.search-text {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.search-section form {
+    margin-top: 20px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-section input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 8px ;
+}
+
+.search-section button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+    color: #0D1321;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.search-section button:hover {
+    background-color: #000000;
+    color: white;
+}
