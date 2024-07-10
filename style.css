@@ -111,11 +111,11 @@
     font-size: 32px;
 }
 
-.text-container p, .text-container p , .container p, .current-target-text p, .next-target-text p {
-    color: #0D1321;
+.text-container p, .text-container p , .container p, .current-target-text p, .next-target-text p , .sub-section-content p, .card-content p, .card-content-1 p{
+    color: #555963;
     font-size: 16px;
     font-weight: 400;
-    padding: 10px;
+    padding-top: 10px;
 }
 
 /* Shared items end here */
@@ -146,12 +146,16 @@
     padding: 10px;
     margin: 0 auto;
 }
-
+.card-content h2{
+    font-size: 24px;
+    color: #555963;
+    font-weight: bold;
+}
 .btn-2{
     background-color: #ffffff;
-    color:#0D1321;
+    color:#555963;
     width: 150px;
-    border: 1px solid #0D1321;
+    border: 1px solid #555963;
     padding: 10px 20px;
     cursor: pointer;
     font-size: 20px;
@@ -175,7 +179,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #0D1321;
+    border: 2px solid #555963;
     border-radius: 16px;
     padding: 2%;
     margin-top: 20px;
@@ -244,8 +248,15 @@ iframe {
     align-items: start;
     padding: 20px;
 }
-
-.card-content a{
+.card-content-1{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    margin: 0 auto;
+}
+.card-content-1 a, .sub-section-content a{
     font-weight: bold;
     font-size: 16px;
     color: #0D1321;
