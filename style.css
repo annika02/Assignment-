@@ -76,6 +76,10 @@
     border: 1px solid #0D1321;
     border-radius: 8px;
 }
+.banner-text-section a{
+    color: white;
+    text-decoration: none;
+}
 /* development cards section starts here */
 .first-section-container{
     width: 100%;
@@ -102,14 +106,16 @@
     margin-top: 50px;
 }
 /* shared font style */
-.text-container h1, .text-container h1 , .container h1{
+.text-container h1, .text-container h1 , .container h1, .current-target-text h1, .next-target-text h1{
     font-weight: 900;
     font-size: 32px;
 }
 
-.text-container p{
+.text-container p, .text-container p , .container p, .current-target-text p, .next-target-text p {
     color: #0D1321;
     font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
 }
 
 /* Shared items end here */
@@ -190,8 +196,10 @@ iframe {
 }
 
 .current-target-text{
+    width: 60%;
     height: 30%;
     text-align: center;
+    margin: 0 auto;
 }
 
 .cards-container{
@@ -252,6 +260,8 @@ iframe {
 }
 
 .next-target-text{
+    width: 60%;
+    margin: 0 auto;
     text-align: center;
 }
 .sub-section{
@@ -323,7 +333,7 @@ iframe {
 }
 
 /* footer section */
-.footer{
+#footer{
     width: 100%;
     height: 100px;
     background-color: #F7F8F8;
