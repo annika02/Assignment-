@@ -76,6 +76,7 @@
     background-color: black;
     border: 1px solid #0D1321;
     border-radius: 8px;
+    cursor: pointer;
 }
 .banner-text-section a{
     color: white;
